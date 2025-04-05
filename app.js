@@ -10,6 +10,8 @@ const path = require("path");
 const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
 const joi = require("joi");
+
+
 const ExpressError = require("./utils/ExpressError.js");
 const listingRouter = require("./routes/listing.js");
 const reviewRouter = require("./routes/review.js");
@@ -35,7 +37,7 @@ store.on('error', ()=>{
     console.error("Failed to connect to mongoDB",err);
 })
 const sessionOptions = {
-    store,
+store,
     secret:process.env.SECRET ,
     resave: false,
     saveUninitialized: true,
