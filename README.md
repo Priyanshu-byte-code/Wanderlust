@@ -6,9 +6,9 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A full-stack property rental and listing platform inspired by modern travel accommodation marketplaces. Wanderlust allows users to create, explore, manage, and review property listings with secure authentication, cloud image uploads, and interactive maps.
+A full-stack property marketplace application built with the MERN stack. Wanderlust enables users to create, manage, explore, and review property listings with secure authentication, cloud image uploads, and interactive location-based maps.
 
-**[Live Demo](https://wanderlust-8eq6.onrender.com/listings)**
+**[Live Demo](https://your-live-link.com)**
 
 ---
 
@@ -38,8 +38,11 @@ A full-stack property rental and listing platform inspired by modern travel acco
 | Cloud Services | Cloudinary, Mapbox API |
 | Deployment | Render |
 
+---
 
-    
+## Local Setup
+
+### Install Dependencies
 
 ```bash
-git clone https://github.com/your-username/wanderlust.git      
+npm install
