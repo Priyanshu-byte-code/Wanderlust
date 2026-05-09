@@ -8,7 +8,7 @@
 
 A full-stack property marketplace application built with the MERN stack. Wanderlust enables users to create, manage, explore, and review property listings with secure authentication, cloud image uploads, and interactive location-based maps.
 
-**[Live Demo](https://your-live-link.com)**
+**[Live Demo](https://wanderlust-8eq6.onrender.com/listings)**
 
 ---
 
